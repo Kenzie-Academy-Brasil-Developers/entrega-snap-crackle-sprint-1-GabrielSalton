@@ -1,5 +1,5 @@
 function snapCrackle (maxValue){
-    let meuRetorno ="";
+    let meuRetorno = "";
 
     for (let counter = 1; counter <= maxValue; counter++){
         if (counter % 2 === 0 && counter % 5 !== 0){
@@ -21,4 +21,4 @@ function snapCrackle (maxValue){
     }
     return meuRetorno;
 }
-console.log(snapCrackle());
+console.log(snapCrackle(24));
